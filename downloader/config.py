@@ -8,9 +8,14 @@ LINKS = [
     'https://irsv.upmusics.com/AliBZ/'
 ]
 
+RECURSIVE_LINKS = [
+    'https://dl.rozmusic.com/Music/',
+    'https://dl.nicmusic.net/nicmusic/',
+
+]
+
 ROOT = os.getcwd()
 DOWNLOAD_PATH = os.path.join(ROOT, 'static', 'downloads')
 LOG_DIR = os.path.join(ROOT, 'downloader', 'log')
 RUNTIME_DOWNLOAD_ERROR_LOG = os.path.join(LOG_DIR, 'runtime_downloader_error.log')
 DOWNLOAD_STATUS_LOG = os.path.join(LOG_DIR, 'download_status.json')
-
